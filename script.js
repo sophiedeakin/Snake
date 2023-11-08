@@ -25,7 +25,7 @@ const handleGameOver = () => {
     alert("Game Over! Press OK to play again");
     location.reload();
 }
-
+// when key is press it changes the direction of the head
 const changeDirection = (e) => {
     if(e.key === "ArrowUp" && velocityY != 1) {
         velocityX = 0;
@@ -86,3 +86,4 @@ const initGame = () => {
 changeFoodPosition();
 setIntervalId = setInterval(initGame, 125);
 document.addEventListener("keydown", changeDirection);
+

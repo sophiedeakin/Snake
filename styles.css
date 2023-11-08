@@ -10,14 +10,43 @@
 
 body {
     background-color: #b8b8b9;
+    overflow-y: hidden;
 }
 
 header img {
-    width: 350px;
+    width: 300px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 850px) {
+    header img {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 450px) {
+    header img {
+        width: 250px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    header img {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 .container {
     width: 65vmin;
     height: 70vmin;
@@ -26,11 +55,11 @@ header img {
     flex-direction: column;
     background: #191f29;
     margin: auto;
-    position: relative;
-    top: 50px;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 769px) {
     .container {
         width: 90vmin;
         height: 95vmin;
@@ -38,14 +67,23 @@ header img {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
     .container {
-        float: right;
-        width: 90vmin;
-        height: 100vmin;
-        display: flex;
+        width: 85vmin;
+        height: 75vmin;
+        margin-left: 25px;
     }
 }
+
+@media (max-width: 350px) {
+    .container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        left: 15px;
+    }
+}
+
 
 .game-contents {
     color: #B8c6dc;
@@ -81,6 +119,74 @@ header img {
 }
 
 .game-board .snake-head {
-    background-color: #f72ab2;
+    background-color: #f7d12a;
 }
 
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    transform: scale(0.9);
+}
+
+@media (max-width: 850px) {
+    .controls {
+        transform: scale(0.9);
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 768px) {
+    .controls  {
+        transform: scale(0.8);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .controls {
+        transform: scale(0.7);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 415px) {
+    .controls {
+        transform: scale(0.65);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .controls {
+        transform: scale(0.6);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .controls {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 70px;
+        transform: scale(0.53);
+    }
+}
+
+@media (max-width: 330px) {
+    .controls {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: -30px;
+        transform: scale(0.53);
+    }
+}
