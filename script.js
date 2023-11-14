@@ -1,6 +1,23 @@
+//https://www.youtube.com/watch?v=sEJB7FtBoug Used this Youtube video for guidance to create the popup window when the page loads
+window.addEventListener("load", function() {
+    setTimeout(
+        function open(event) {
+            document.querySelector(".popup").style.display = "block";
+        },
+        1500
+    )
+});
+
+document.querySelector("#close").addEventListener
+("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+
+// https://www.youtube.com/watch?v=K8Rh5x3c9Pw Used this Youtube vidoe for guidance to create the Snake game but changed some of the variables
 const gameBoard = document.querySelector(".game-board");
 const scoreElement = document.querySelector(".score")
 const highScoreElement = document.querySelector(".high-score")
+const controls = document.querySelectorAll(".controls img");
 
 let gameOver = false;
 let foodX, foodY;
@@ -23,7 +40,7 @@ const changeFoodPosition = () => {
 // creates an alert when the snake collides with the wall and when pressing OK the page will reload
 const handleGameOver = () => {
     clearInterval(setIntervalId);
-    alert("Game Over! Press OK to play again");
+    alert("Game Over!");
     location.reload();
 }
 // when key is press it changes the direction of the head
@@ -43,6 +60,11 @@ const changeDirection = (e) => {
     }
     
 }
+
+controls.forEach(key => {
+    //Calls the changeDirection when each key is clicked
+    key.addEventListener("click", () => changeDirection({ key: key.dataset.key }));
+});
 
 const initGame = () => {
     if (gameOver) return handleGameOver();

@@ -1,7 +1,12 @@
 /* Google font Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&family=Russo+One&family=Space+Mono&family=Titan+One&display=swap');
-
-* {
+/*https://www.youtube.com/watch?v=K8Rh5x3c9Pw 
+Used this Youtube vidoe for guidance to create the Snake game but changed some of the variables */
+/*https://www.youtube.com/watch?v=sEJB7FtBoug 
+Used this Youtube video for guidance to create the popup window when the page loads */
+* 
+*::before
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,6 +19,45 @@ body {
     overflow-x: hidden;
 }
 
+.popup {
+    background-color: #e2e2e2;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: Lato, sans-serif;
+}
+
+.popup img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.popup h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.popup h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.popup button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #b8b8b8;
+}
 header img {
     width: 300px;
     height: auto;
@@ -297,6 +341,7 @@ header img {
     justify-content: center;
     margin-top: 10px;
     transform: scale(0.9);
+    cursor: pointer;
 }
 
 

@@ -7,6 +7,17 @@
     <title>Snake</title>
 </head>
 <body>
+    <!--https://www.youtube.com/watch?v=sEJB7FtBoug Used this Youtube video for guidance to create the popup window when the page loads-->
+    <div class="popup">
+        <img src="assets/snake logo.png" alt="Snake Logo">
+        <h1>Welcome To Snake</h1>
+        <h2>How to play: Use the arrow keys on the keyboard or press the buttons below the game to move the snake's head around the board and eat the fruit to make it grow, if the snake's head collides with its body
+            or the wall it's GAME OVER!
+        </h2>
+        <h2>Press play to start</h2>
+        <button id="close">Play</button>
+    </div>
+    <!--https://www.youtube.com/watch?v=K8Rh5x3c9Pw Used this Youtube vidoe for guidance to create the Snake game but changed some of the variables-->
     <header>
         <img src="assets/snake logo.png">
         <a href="index.html"></a>
@@ -19,11 +30,13 @@
         <div class="game-board"></div>
     </div>
     <div class="controls">
-        <img src="assets/arrow up.png" alt="" class="arrowup">
-        <img src="assets/arrow down.png" alt="" class="arrowdown">
-        <img src="assets/arrow left.png" alt="" class="arrowleft">
-        <img src="assets/arrow right.png" alt="" class="arrowright">
+        <img data-key="ArrowUp" src="assets/arrow up.png" alt="" class="arrowup">
+        <img data-key="ArrowDown" src="assets/arrow down.png" alt="" class="arrowdown">
+        <img data-key="ArrowLeft" src="assets/arrow left.png" alt="" class="arrowleft">
+        <img data-key="ArrowRight" src="assets/arrow right.png" alt="" class="arrowright">
     </div>
 </body>
 <script src="script.js"></script>
 </html>
+
+<!--https://www.canva.com  Used this website to design the logo and the arrow buttons-->
