@@ -11,6 +11,7 @@
 body {
     background-color: #b8b8b9;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 header img {
@@ -20,25 +21,18 @@ header img {
     margin: 0 auto;
 }
 
-@media (max-width: 850px) {
-    header img {
-        width: 300px;
-        height: auto;
-        display: block;
-        margin-left: 25%;
+@media screen 
+    and (max-device-width: 320px) {
+        header img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
     }
-}
 
-@media (max-width: 450px) {
-    header img {
-        width: 250px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 400px) {
+@media screen 
+    and (min-device-width: 400px) and (max-device-width: 450px){
     header img {
         width: 200px;
         height: auto;
@@ -47,44 +41,66 @@ header img {
     }
 }
 
+
+@media screen and (min-device-width: 1024px) {
+    header img {
+        width: 500px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen 
+    and (min-device-width: 1200px) {
+        header img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
 .container {
-    width: 65vmin;
-    height: 70vmin;
-    border-radius: 5px;
+    width: 75vmin;
+    height: 75vmin;
     overflow: hidden;
     flex-direction: column;
     background: #191f29;
     margin: auto;
 }
 
-
-
-@media (max-width: 769px) {
-    .container {
-        width: 90vmin;
-        height: 95vmin;
-        margin: auto;
+@media screen 
+    and (max-device-width: 280px){
+        .container {
+            width: 95vmin;
+            height: 95vmin;
+        }
     }
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 85vmin;
-        height: 75vmin;
-        margin-left: 25px;
+@media screen 
+    and (min-device-width: 320px) and (max-device-width: 480px) {
+        .container {
+            width: 95vmin;
+            height: 95vmin;
+        }
     }
-}
 
-@media (max-width: 350px) {
-    .container {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        left: 15px;
+
+@media screen 
+    and (min-device-width: 712px) {
+        .container {
+            width: 85vmin;
+            height: 85vmin;
+        }
     }
-}
 
-
+@media screen 
+    and (min-device-width: 1200px) {
+        .container {
+            width: 70vmin;
+            height: 70vmin;
+        }
+    }
 .game-contents {
     color: #B8c6dc;
     font-size: 20px;
@@ -94,16 +110,96 @@ header img {
     justify-content: space-between;
 }
 
-@media (max-width: 320px) {
+@media screen 
+    and (max-device-width: 280px) {
     .game-contents {
-        font-size: 15px;
+        font-size: 14px;
         display: flex;
         justify-content: space-between;
+        padding: 15px 25px;
     }
     .high-score {
         padding-left: 70px;
     }
 }
+
+@media screen 
+    and (min-device-width: 320px) {
+    .game-contents {
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 25px;
+    }
+    .high-score {
+        padding-left: 70px;
+    }
+}
+
+@media screen 
+    and (min-device-width: 712px) {
+    .game-contents {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 21px 25px;
+    }
+    .high-score {
+        padding-left: 70px;
+    }
+}
+
+@media screen 
+    and (min-device-width: 768px) {
+    .game-contents {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 21px 25px;
+    }
+    .high-score {
+        padding-left: 70px;
+    }
+}
+
+@media screen 
+    and (min-device-width: 820px) {
+    .game-contents {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        padding: 28px 25px;
+    }
+    .high-score {
+        padding-left: 70px;
+    }
+}
+
+@media screen 
+    and (min-device-width: 1024px) {
+    .game-contents {
+        font-size: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 25px;
+    }
+    .high-score {
+        padding-left: 70px;
+    }
+}
+
+@media screen 
+    and (min-device-width: 1200px) {
+        .game-contents {
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 27px;
+        }
+        .high-score {
+            padding-left: 70px;
+        }
+    }
 
 .game-board {
     width: 100%;
@@ -114,6 +210,80 @@ header img {
     background: #242c3d;
 }
 
+@media screen
+    and (max-device-width: 280px) {
+        .game-board {
+            height: 82%;
+        }
+}
+
+@media screen 
+    and (min-device-width: 320px) {
+        .game-board {
+            height: 84%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 360px) {
+        .game-board {
+            height: 86%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 375px) {
+        .game-board {
+            height: 87%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 400px) {
+        .game-board {
+            height: 88%;
+        }
+    }
+@media screen 
+    and (min-device-width: 540px) and (max-device-width: 712px) {
+        .game-board {
+            height: 89%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 768px) {
+        .game-board {
+            height: 90%;
+        }
+    }
+@media screen 
+    and (min-device-width: 820px) {
+        .game-board {
+            height: 90%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 911px) and (max-device-width: 912px) {
+        .game-board {
+            height: 89%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 1024px) {
+        .game-board {
+            height: 91%;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 1200px) {
+        .game-board {
+            height: 90%;
+        }
+    }
 .game-board .food {
     background-color: #ff0808;
 }
@@ -129,64 +299,92 @@ header img {
     transform: scale(0.9);
 }
 
-@media (max-width: 850px) {
+
+@media screen 
+    and (max-device-width: 280px) {
+        .controls {
+            transform: scale(0.45);
+            display: flex;
+            justify-content: center;
+            translate: 0 -20px;
+        }
+    }
+
+@media screen
+    and (min-device-width: 320px) {
+        .controls {
+            transform: scale(0.5);
+            display: flex;
+            justify-content: center;
+            translate: 0 -30px;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 360px) {
+        .controls {
+            transform: scale(0.6);
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+@media screen 
+    and (min-device-width: 400px) {
+        .controls {
+            transform: scale(0.7);
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+@media screen 
+    and (min-device-width: 712px) {
+        .controls {
+            transform: scale(0.9);
+            display: flex;
+            justify-content: center;
+            translate: 0 -10px;
+        }
+    }
+
+@media screen
+and (min-device-width: 768px) {
     .controls {
-        transform: scale(0.9);
+        transform: scale(1);
         display: flex;
-        justify-content: center; 
+        justify-content: center;
+        translate: 0 10px;
     }
 }
 
-@media (max-width: 768px) {
-    .controls  {
-        transform: scale(0.8);
+@media screen
+and (min-device-width: 820px) {
+    .controls {
+        transform: scale(1.2);
         display: flex;
         justify-content: center;
+        translate: 0 10px;
     }
 }
 
-@media (max-width: 450px) {
+@media screen
+and (min-device-width: 1024px) {
     .controls {
-        transform: scale(0.7);
+        transform: scale(1.6);
         display: flex;
         justify-content: center;
+        translate: 0 50px;
     }
 }
 
-@media (max-width: 415px) {
-    .controls {
-        transform: scale(0.65);
-        display: flex;
-        justify-content: center;
+@media screen 
+    and (min-device-width: 1200px) {
+        .controls {
+            display: flex;
+            justify-content: center;
+            transform: scale(1);
+            translate: 0 -10px;
+        }
     }
-}
-
-@media (max-width: 400px) {
-    .controls {
-        transform: scale(0.6);
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 350px) {
-    .controls {
-        position: absolute;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        bottom: 70px;
-        transform: scale(0.53);
-    }
-}
-
-@media (max-width: 330px) {
-    .controls {
-        position: absolute;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        bottom: -30px;
-        transform: scale(0.53);
-    }
-}

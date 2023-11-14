@@ -14,6 +14,7 @@ let score = 0;
 let highScore = localStorage.getItem("high-score") || 0;
 highScoreElement.innerText = `High Score: ${highScore}`;
 
+// Randomly changes the position of the food (red square)
 const changeFoodPosition = () => {
     foodX = Math.floor(Math.random() * 30) + 1;
     foodY = Math.floor(Math.random() * 30) + 1;
@@ -85,5 +86,7 @@ const initGame = () => {
 
 changeFoodPosition();
 setIntervalId = setInterval(initGame, 125);
+
 document.addEventListener("keydown", changeDirection);
 
+window.addEventListener("keydown", function(e) { if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) { e.preventDefault(); } }, false);
