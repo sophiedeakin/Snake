@@ -44,4 +44,4 @@ After conducting the research I have created a list of areas to focus on in orde
 
 Here's the list starting from the most important: 
 1. Responsiveness: After learning smartphones are widely used to play casual games, my primary focus is making sure when coding the game it responds to different mobile phone sizes. To help me with this area I will be using Device Mode in Google Developer Tools, this feature simulates various mobile devices and allows you to see how your page looks and performs.
-[for reference see wireframes](#business-goals)
+2. Button controls: This feature is next on my importance list because without this feature mobile and tablet users 
