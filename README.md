@@ -12,7 +12,7 @@ The website comprises a single page which includes the logo, the game board with
 
 ## Target Audience 
 
-The game was built to target individuals who love classic arcade-style games, and gamers who enjoy playing games on either PC, tablet,or mobile. 
+The game was built to target individuals who love classic arcade-style games, and gamers who enjoy playing games on either PC, tablet, or mobile. 
 
 ## Business Goals 
 
@@ -50,13 +50,26 @@ Here's the list of the main features I want to focus on:
 
 ## Scope 
 
-In order to accomplish the business goals and the user goals the features I will be adding in this release are the following:
+To accomplish the business goals and the user goals the features I will be adding in this release are the following:
 
 1. Logo: At the top of the page will be the logo that has a simple design and will be memorable.
 2. Score and high score: Located at the top of the game board which shows users their current score and high score.
 3. Arrow buttons: Located under the game board which allows users who play on different mobile and tablet devices.
 4. Game board: The main gameplay area will have the snake, fruit, and collision detection.
 
-For an idea of what the game will look like (click here to see the wireframes. Add a link to the wireframes section.)
+For an idea of what the game will look like (click here to see the wireframes. Add a link to the wireframes section.) 
 
-// Add in plans for next releases 
+### Future planned releases
+
+For the first update, I am planning to add the following features: 
+
+1. Sign Up/Login: This feature will allow users to create an account to keep track of their high scores and stats, this feature will be available on PC, tablet and mobile.
+2. Settings tab and themes: For this feature, I will be creating a Setting tab that will have different theme options allowing users to pick what kind of theme they want their game to look like.
+     - Background colour or images
+     - Font colour
+     - Game board colour
+3. Hard Level: For this feature, I will be building another snake game but make it harder by adding obstacles. This feature will keep users playing the game and add a challenge, the aim of this hard level is similar to the classic snake game but there are obstacles placed around the board and if the snake's head hits the obstacle it's game over.
+
+For the second update, I am planning to add the following features:
+
+1. Leaderboard: For this feature, I will be creating a leaderboard where players across the world can compete to be at the top of the leaderboard. By doing this it will 
