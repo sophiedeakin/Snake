@@ -81,4 +81,10 @@ The third update will consist of turning the free games website into an app and 
 
 During the structure planning I will be referring back to the [User Goals](#user-goals) in order to meet their expectations with the game. 
 
-Looking at the third user goal ("As a first-time visitor, I want to be able to play the game on various devices") it's important the game is not overloaded with features as it will make it look messy and overwhelming when users are playing, especially on mobile devices as the screen sizes are smaller than tablet and PC. To tackle this I will be limiting the amount of content there is, the page will have 4 main sections the logo, game board, arrow buttons and the information popup. 
+Looking at the third user goal ("As a first-time visitor, I want to be able to play the game on various devices") it's important the game is not overloaded with features as it will make it look messy and users will feel overwhelmed, especially on mobile devices as the screen sizes are smaller than tablet and PC. To tackle this I will be limiting the amount of content there is, the page will have four main sections the logo, game board, arrow buttons and the information popup. Additionally, looking at the fourth user goal ("As a first-time visitor, I want the game to be easy to understand and have a simple layout.") I will be making sure the placement of all the features is consistent when playing the game on different devices, this will be done by keeping the same layout, colours/theme and font. In addition, to make the game easy to understand for users I will be creating a pop-up which pops onto the user's screen when the page loads, the pop-up will include instructions on how to play the game.
+
+## Skeleton 
+
+### Wireframes 
+
+![Snake Wireframes](https://github.com/sophiedeakin/Snake/blob/main/Wireframes/Snake%20Wireframes.png)
