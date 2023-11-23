@@ -6,7 +6,7 @@
 
 # Introduction 
 
-The Snake game is a web-based game inspired by the popular classic game called "Snake", where players move the snake's head around the board to eat the fruit, and the snake's body progressively gets longer. Every fruit that is eaten counts towards their score. Snake regained its popularity in 1997 when Taneli Armanto programmed the game to be published by Nokia for their monochrome phones. It was first introduced on the Nokia 6110. 
+The Snake game is a web-based game inspired by the popular classic game called "Snake", where players move the snake's head around the board to eat the fruit, and the snake's body progressively gets longer. Every fruit that is eaten counts towards their score. Snake regained popularity in 1997 when Taneli Armanto programmed the game to be published by Nokia for their monochrome phones. It was first introduced on the Nokia 6110. 
 
 The website comprises a single page which includes the logo, the game board with the user's current score and high scores, and the button controls for mobile and tablet users. 
 
@@ -54,10 +54,8 @@ To accomplish the business goals and the user goals the features I will be addin
 
 1. Logo: At the top of the page will be the logo that has a simple design and will be memorable.
 2. Score and high score: Located at the top of the game board which shows users their current score and high score.
-3. Arrow buttons: Located under the game board which allows users who play on different mobile and tablet devices.
+3. Arrow buttons: Located under the game board which allows users to play on different mobile and tablet devices.
 4. Game board: The main gameplay area will have the snake, fruit, and collision detection.
-
-For an idea of what the game will look like (click here to see the wireframes. Add a link to the wireframes section.) 
 
 ### Future planned releases
 
@@ -72,4 +70,13 @@ For the first update, I am planning to add the following features:
 
 For the second update, I am planning to add the following features:
 
-1. Leaderboard: For this feature, I will be creating a leaderboard where players across the world can compete to be at the top of the leaderboard. By doing this it will 
+1. Leaderboard: For this feature, I will be creating a leaderboard where players across the world can compete to be at the top of the leaderboard.
+2. More games: Create more classic games like Tic-Tac-Toe, Tetris, etc. These games will added to create a free games website which will bring more users and keep current users.
+
+For the third update, I am planning to add the following feature:
+
+The third update will the be biggest update yet, I will be turning the free games website into an app and making it available to all users on PC, Mobile and Tablet via Google Play, Apple App Store and Microsoft Store. 
+
+## Structure 
+
+When planning the structure of the game I wanted all the features to be placed on a singular page this will allow users to jump straight into the game without needing to click any unwanted links. During the structure planning I will be referring back to the [User Goals](#user-goals)
