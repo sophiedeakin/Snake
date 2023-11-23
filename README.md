@@ -75,8 +75,10 @@ For the second update, I am planning to add the following features:
 
 For the third update, I am planning to add the following feature:
 
-The third update will the be biggest update yet, I will be turning the free games website into an app and making it available to all users on PC, Mobile and Tablet via Google Play, Apple App Store and Microsoft Store. 
+The third update will consist of turning the free games website into an app and making it available to all users on PC, Mobile and Tablet via Google Play, Apple App Store and Microsoft Store. 
 
 ## Structure 
 
-When planning the structure of the game I wanted all the features to be placed on a singular page this will allow users to jump straight into the game without needing to click any unwanted links. During the structure planning I will be referring back to the [User Goals](#user-goals)
+During the structure planning I will be referring back to the [User Goals](#user-goals) in order to meet their expectations with the game. 
+
+Looking at the third user goal ("As a first-time visitor, I want to be able to play the game on various devices") it's important the game is not overloaded with features as it will make it look messy and overwhelming when users are playing, especially on mobile devices as the screen sizes are smaller than tablet and PC. To tackle this I will be limiting the amount of content there is, the page will have 4 main sections the logo, game board, arrow buttons and the information popup. 
