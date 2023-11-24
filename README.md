@@ -275,11 +275,11 @@ After doing some research on this bug I found a [website](https://www.w3schools.
 
 When continuing my testing I found another bug that was important to fix, I noticed the arrow button controls were too big when viewing the game from a mobile phone perspective. The image below shows the bug I have found: 
 
-[Arrow Buttons Bug](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Controls%20Bug.png)
+![Arrow Buttons Bug](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Controls%20Bug.png)
 
 I first tried changing the width of the controls div but it didn't work, so I did some research on how to make the div fit the width of the screen without affecting any of the images and found this [website](https://www.w3schools.com/css/css3_2dtransforms.asp). The website I used gave me guidance on the best CSS code to use to decrease the size of an element, I used "transform: scale();". From the image below you can see the bug has been fixed allowing users to clearly see all the arrow button controls and easily interact with them. 
 
-[Arrow Button Bug Fixed](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Controls%20Bug%20Fixed.png)
+![Arrow Button Bug Fixed](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Controls%20Bug%20Fixed.png)
 
 ---
 
