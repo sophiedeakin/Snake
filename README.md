@@ -136,7 +136,7 @@ The pop-up was made using HTML, CSS and JavaScript. The pop-up pops up when the 
 The gameboard contains the scoring system and the main gameplay area which allows users to see the snake head move and the fruit which they need to collect. Starting from the top of the game board I used a different background colour (#191F29) compared to the rest of the board because I wanted it to stand out since it contains the score and high score, for the scoring system I used the same "Lato" font and used a brighter font (#B8C6DC) so users can easily see their scores. Next is the main gameplay area which has a lighter background colour (#242C3D) and is a different colour from the snake and fruit.
 
 ### Arrow Buttons 
-[Snake Arrow Buttons](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Arrow%20buttons%20feature.png)
+![Snake Arrow Buttons](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Arrow%20buttons%20feature.png)
 The arrow buttons are positioned at the bottom of the game under the game board, this allows mobile phone and tablet users to press the buttons to move the snake and see the gameplay. I also used Canva to create the buttons instead of using Font Awesome because I wanted the buttons to have a retro style and Canva provides those resources for me. The arrows are made up of triangles with arrows inside of them which allow users to understand which button to press in order to move the snake's head in that direction. Finally, I used background remover which makes the background of the arrow buttons transparent this saved me time from trying to make sure the background colour matched perfectly.
 
 ---
@@ -222,4 +222,5 @@ When entering the game it has a simple layout with a limited number of features 
 
 Lighthouse is a feature in Google Developer Tools which is used for improving the quality of web pages. It has audits for performance, accessibility, progressive web pages, SEO, and more. When first running Lighthouse I achieved a really low score for performance, reference the image below:
 
+![Lighthouse Result](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Snake%20Lighthouse%201.png)
 
