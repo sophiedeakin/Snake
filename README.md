@@ -125,3 +125,101 @@ To accomplish the user goals by making the game easy to understand I made sure t
 
 ### Snake Logo 
 ![Snake Logo](https://github.com/sophiedeakin/Snake/blob/main/assets/snake%20logo.png)
+The Snake logo is positioned at the top-middle of the game and was designed using Canva. Using the resources provided by Canva I was able to design the logo by using a snake cartoon image and a text box with the name of the game, I made sure to choose the same font ("Lato") as the rest of the game so that it's consistent and easy to read. I also chose the text colour to be Black to make it easier to read since the background colour of the game is Silver. Finally, I used background remover which made the background of the logo transparent this saved me time from trying to make sure the background colour matched perfectly.
+
+### Popup 
+![Snake Game Popup](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Popup%20feature.png)
+The pop-up was made using HTML, CSS and JavaScript. The pop-up pops up when the game loads, the pop-up consists of the snake logo at the top, text welcoming the users and providing them with instructions on how to play the game, and at the bottom is a button which says "Play" when users click on the button the pop-up closes and they are able to play the game. When building the pop-up I used the same font and used Black as the font colour to match. 
+
+### Game Board 
+![Snake Game Board](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Game%20board%20feature.png)
+The gameboard contains the scoring system and the main gameplay area which allows users to see the snake head move and the fruit which they need to collect. Starting from the top of the game board I used a different background colour (#191F29) compared to the rest of the board because I wanted it to stand out since it contains the score and high score, for the scoring system I used the same "Lato" font and used a brighter font (#B8C6DC) so users can easily see their scores. Next is the main gameplay area which has a lighter background colour (#242C3D) and is a different colour from the snake and fruit.
+
+### Arrow Buttons 
+[Snake Arrow Buttons](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Arrow%20buttons%20feature.png)
+The arrow buttons are positioned at the bottom of the game under the game board, this allows mobile phone and tablet users to press the buttons to move the snake and see the gameplay. I also used Canva to create the buttons instead of using Font Awesome because I wanted the buttons to have a retro style and Canva provides those resources for me. The arrows are made up of triangles with arrows inside of them which allow users to understand which button to press in order to move the snake's head in that direction. Finally, I used background remover which makes the background of the arrow buttons transparent this saved me time from trying to make sure the background colour matched perfectly.
+
+---
+
+## Technologies Used 
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  * Used for the basic building block for the project and to structure the content.
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  * Used for styling all the web content across the project.
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  * Used for giving elements inside web page interactiveness which engages the user.
+
+- [Google Fonts](https://fonts.google.com/)
+  * Used for obtaining the font used through the project, the font used was Lato.
+
+- [Google Developer Tools](https://developer.chrome.com/docs/devtools/)
+  * Used for identifying any bugs and responsiveness.
+
+- [GitHub](https://github.com/)
+  * Used for storing code for the project after being pushed.
+
+- [Git](https://git-scm.com/)
+  * Used for version control by utilising the VS Code terminal to commit to Git and Push to GitHub.
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+  * Free Open Source software used to code the project.
+
+- [Figma](https://www.figma.com/)
+  * Used for creating the wireframes for the project.
+
+- [Framer](https://www.framer.com/)
+  * Used for creating the prototypes for the project.
+
+- [Grammarly](https://www.grammarly.com/)
+  * Used for checking grammar and spelling mistakes throughout the project.
+
+- [Coloors](https://coolors.co/)
+  * Used for creating the colour palette for the project.
+
+- [Canva](https://www.canva.com/)
+  * Used for designing and editing the logo and the arrow buttons for the project.
+
+- [Background Remover](https://www.remove.bg/)
+  * Used for removing the background around the logo and arrow buttons making them transparent.
+
+- [Keycodes](https://www.toptal.com/developers/keycode)
+  * Used for finding the key codes for keys on a keyboard.
+
+--- 
+
+## Testing 
+
+### User Stories 
+
+1. As a first-time visitor, I want the game to be playable without experiencing any bugs or errors.
+
+When entering the game the user will immediately see the pop-up and when clicking play they can start playing the game, this is because when building the game I consistently used Google Developer Tools to check if the game was responsive to the different screen sizes and also checking for any bugs or errors along the way. 
+
+![User Story 1](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/User%20goals%201.png)
+
+2. As a first-time visitor, I want the game to be entertaining and allow me to create a high score to try and beat.
+
+When entering the game you can see at the top of the game board there is a scoring system that shows your current score and your high score, as you play the game your score (on the left) will go up every time the snake eats the red fruit but when the snake either hits it own body or collides with the wall it's game over and the score for that round will be shown as your high score (on the right). The high score will only change when you successfully get a higher score than your previous game. 
+
+![User Story 2](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/User%20goals%202.png)
+
+3. As a first-time visitor, I want to be able to play the game on various devices.
+
+When entering the game on mobile, tablet or PC the game responds to the size of the device making the game playable, you are still able to see your score and high score, use the arrow buttons, logo and most importantly the gameplay. 
+
+![User Story 3](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/User%20goals%203.png)
+
+4. As a first-time visitor, I want the game to be easy to understand and have a simple layout.
+
+When entering the game it has a simple layout with a limited number of features making the game not feel overwhelming. Additionally, when first loading into the game there is a pop-up that welcomes you and provides you with instructions on how to play the game. 
+
+![User Story 4](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/User%20goals%204.png)
+
+### Lighthouse
+
+Lighthouse is a feature in Google Developer Tools which is used for improving the quality of web pages. It has audits for performance, accessibility, progressive web pages, SEO, and more. When first running Lighthouse I achieved a really low score for performance, reference the image below:
+
+
