@@ -19,7 +19,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .popup {
     background-color: #e2e2e2;
     width: 450px;
@@ -403,7 +402,6 @@ header img {
     height: 90%;
     display: grid;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
-    
     background: #242c3d;
 }
 
