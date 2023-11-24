@@ -137,7 +137,7 @@ The gameboard contains the scoring system and the main gameplay area which allow
 
 ### Arrow Buttons 
 ![Snake Arrow Buttons](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Arrow%20buttons%20feature.png)
-The arrow buttons are positioned at the bottom of the game under the game board, this allows mobile phone and tablet users to press the buttons to move the snake and see the gameplay. I also used Canva to create the buttons instead of using Font Awesome because I wanted the buttons to have a retro style and Canva provides those resources for me. The arrows are made up of triangles with arrows inside of them which allow users to understand which button to press in order to move the snake's head in that direction. Finally, I used background remover which makes the background of the arrow buttons transparent this saved me time from trying to make sure the background colour matched perfectly.
+The arrow buttons are positioned at the bottom of the game under the game board, this allows mobile phone and tablet users to press the buttons to move the snake and see the gameplay. I also used Canva to create the buttons instead of using Font Awesome because I wanted the buttons to have a retro style and Canva provided those resources for me. The arrows are made up of triangles with arrows inside of them which allow users to understand which button to press in order to move the snake's head in that direction. Finally, I used background remover which makes the background of the arrow buttons transparent this saved me time from trying to make sure the background colour matched perfectly.
 
 ---
 
@@ -220,7 +220,144 @@ When entering the game it has a simple layout with a limited number of features 
 
 ### Lighthouse
 
-Lighthouse is a feature in Google Developer Tools which is used for improving the quality of web pages. It has audits for performance, accessibility, progressive web pages, SEO, and more. When first running Lighthouse I achieved a really low score for performance, reference the image below:
+Lighthouse is a feature in Google Developer Tools which is used for improving the quality of web pages. It has audits for performance, accessibility, progressive web pages, SEO, and more. When first running Lighthouse I achieved a low score for accessibility and SEO, reference the image below:
 
 ![Lighthouse Result](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Snake%20Lighthouse%201.png)
 
+When looking at the recommendations to improve the accessibility of the game it recommends adding the "[alt]" for the Snake logo, this is something I forgot to add when coding the project. Additionally, it recommends adding a meta description to the HTML file to improve the SEO. After completing the recommendations and running Lighthouse again you can see those changes made have been effective and have improved my accessibility and SEO score a lot. Reference image below:
+
+![Lighthouse Results After Recommendations](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Lighthouse%20Results%20after.png)
+
+### Google Developer Tools
+
+Google Developer Tools is a set of web developer tools built directly into Google Chrome, this tool helps you edit pages and diagnose problems quickly which makes your website looker better and build them faster.
+
+When testing the game I consistently used Google Developer Tools which allowed me to identify any bugs and test the responsiveness when viewing the game on different devices. 
+
+![Google Developer Tools](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/User%20goals%203.png)
+
+Referencing back to the [Strategy](#strategy) of the game I made a list of features/areas I wanted to focus on. The primary focus on that list was responsiveness and Google Developer Tools allows me to do this by providing simulated devices which allow you to see what your website would look like when viewing on either Mobile, Tablet or PC. The devices I used were:
+
+- Galaxy S9+
+- Galaxy Tab S4
+- iPhone SE
+- iPhone XR
+- iPhone 12 Pro
+- iPhone 14 Pro Max
+- Pixel 7
+- Samsung Galaxy S8+
+- Samsung Galaxy S20 Ultra
+- iPad Mini
+- iPad Air
+- iPad Pro
+- Surface Pro 7
+- Surface Duo
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
+- iPhone 4
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+
+### Known Bugs and Fixes 
+
+When testing the game I wanted to make sure any interactive features were working properly and overall the game was playable. When testing out the game in Google Developer Tools I noticed when using the arrow keys to move the snake head it was causing the scroll bar to move as well. I flagged this bug as important to fix because if were to push this game out it would cause users to get frustrated and leave. The image below shows the bug:
+
+![Scroll Bar Bug](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Scroll%20Bar%20Bug.png)
+
+After doing some research on this bug I found a [website](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) which gave me the CSS code to hide the scrollbar "overflow-y: hidden;", this code will also prevent the page from moving when the arrow keys are pressed. The image below shows the bug has been fixed and when interacting with the game by pressing the arrow keys the page no longer moves and the scrollbar is hidden.  
+
+![Scroll Bar Bug Fixed](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Scroll%20Bar%20Bug%20Fixed.png)
+
+When continuing my testing I found another bug that was important to fix, I noticed the arrow button controls were too big when viewing the game from a mobile phone perspective. The image below shows the bug I have found: 
+
+[Arrow Buttons Bug](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Controls%20Bug.png)
+
+I first tried changing the width of the controls div but it didn't work, so I did some research on how to make the div fit the width of the screen without affecting any of the images and found this [website](https://www.w3schools.com/css/css3_2dtransforms.asp). The website I used gave me guidance on the best CSS code to use to decrease the size of an element, I used "transform: scale();". From the image below you can see the bug has been fixed allowing users to clearly see all the arrow button controls and easily interact with them. 
+
+[Arrow Button Bug Fixed](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Controls%20Bug%20Fixed.png)
+
+---
+
+# Deployment 
+
+The Space Museum website was deployed using Gitpages and followed the steps below:
+
+**GitHub Pages Deployment**
+
+1. Log into your GitHub
+2. On the left-hand side select the *Repository* you want to deploy.
+3. At the top of the page there is a menu, find and click on *Settings*.
+4. On the right-hand side there is a vertical menu, under the *Code and automation* section click on *Pages*.
+5. Under *Build and deployment* there is a sub-section called *Branch*, select *None* and change it to *Main*.
+6. The page will refresh and at the top of the page will be a message, "Your site is live at (Link to your GitHub page web address)"
+**It can take some time for the link to be active.**
+
+**Forking the GitHub Repository**
+
+Forking your GitHub repository allows you to make a copy of your original repository and make any changes without overwriting your original repository. 
+
+1. Select the Repository you want to fork.
+2. Under the menu and your account, click on the *Fork* button.
+3. Your repository is now forked and the copy is available to use.
+
+**Cloning GitHub Repository**
+
+1. Log into your GitHub and select the repository you want to clone.
+2. Above the list of your file click on *<> Code*.
+3. Copy the URL.
+4. In *VS Code* change the current directory to the location of where you want the cloned directory.
+5. In the terminal type in *"git clone"* and paste in the link from **Step 3**.
+6. Press *Enter* and a local clone has been created.
+
+---
+
+# Credits
+
+I have used various types of resources whilst designing and building this project. Any code that I have found and used from any sources has been commented on within the HTML, CSS and JavaScript files. 
+
+**Guidance and Research**
+
+The websites/articles below have been used for guidance and research:
+
+- [Scroll Bar Bug](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp)
+  * The following resource was used to fix the scrolling bug when the arrow keys are pressed.
+
+- [Arrow Buttons Bug](https://www.w3schools.com/css/css3_2dtransforms.asp)
+  * The following resource was used to help fix the visual issue with the controls not fitting the screen properly.
+
+- [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+  * The following website was used to get the media queries for different types of devices.
+
+- [Research on the original Snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)
+  * The following resource was used to gain information about the original game.
+
+- [Stategy](https://asoworld.com/blog/how-to-promote-your-mobile-arcade-game/)
+  * The following resource was used to help plan the strategy of the game.
+
+- [Strategy](https://www.adexchanger.com/gaming/a-marketers-guide-to-breaking-down-stereotypes-in-the-gaming-audience/#:~:text=Casual%20mobile%20games%3A%20Casual%20games,players%20between%2018%20and%2035.)
+  * The following resource was also used to help plan the strategy of the game.
+
+**Media** 
+
+The websites below were used for selecting and editing media for the game:
+
+- [Canva](https://www.canva.com/)
+  * Used for designing and editing the logo and the arrow buttons for the project.
+
+- [Background Remover](https://www.remove.bg/)
+  * Used for removing the background around the logo and arrow buttons making them transparent.
+
+**Code**
+
+The resources below were used to help code the game: 
+
+- [Snake Game](https://www.youtube.com/watch?v=K8Rh5x3c9Pw)
+  * The following resource was used to help design and build the game but changed some variables to make it my own style.
+
+- [Popup Feature](https://www.youtube.com/watch?v=sEJB7FtBoug)
+  * The following resource was used to help me build the popup that automatically pops up when the page loads. 
