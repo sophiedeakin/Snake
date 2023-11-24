@@ -88,3 +88,40 @@ Looking at the third user goal ("As a first-time visitor, I want to be able to p
 ### Wireframes 
 
 ![Snake Wireframes](https://github.com/sophiedeakin/Snake/blob/main/Wireframes/Snake%20Wireframes.png)
+
+The wireframes shown above are my original idea of how I wanted the game to look, the only change I made was the addition of the popup feature which welcomes the users and tells them how to play the game. 
+
+### Prototype 
+
+![Snake Prototype](https://github.com/sophiedeakin/Snake/blob/main/Wireframes/Snake%20Prototype.png)
+
+The prototype above shows what the game would look like with the colours/themes and font I have chosen. The prototype has a simple layout which meets the user goals and I will be sticking to this layout when building the game. 
+
+## Surface
+
+### Colours
+
+When choosing the colours for the game I didn't want to choose colours that were too bright, especially with the game board since the snake is Yellow and the fruit is Red. I have added an image below of what the colour looks like. 
+
+The colours I have chosen are: 
+
+- #E2E2E2 - Platinum
+- #B8B8B9 - Silver
+- #B8C6DC - Powder Blue
+- #242C3D - Gunmetal
+- #191F29 - Raisin Black
+
+![Snake Colour Palette](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Snake%20colour%20palette.png)
+
+### Typography
+
+To accomplish the user goals by making the game easy to understand I made sure to choose a font that is easy to read and is consistent throughout the game, the font I chose was "Lato" from the Google Fonts website. The image below shows what the font looks like. 
+
+![Snake Typography](https://github.com/sophiedeakin/Snake/blob/main/assets/Read%20Me%20assets/Snake%20Typography.png)
+
+---
+
+## Features
+
+### Snake Logo 
+![Snake Logo](https://github.com/sophiedeakin/Snake/blob/main/assets/snake%20logo.png)
