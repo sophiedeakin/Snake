@@ -180,7 +180,7 @@ The arrow buttons are positioned at the bottom of the game under the game board,
   * Used for creating the colour palette for the project.
 
 - [Canva](https://www.canva.com/)
-  * Used for designing and editing the logo and the arrow buttons for the project.
+  * Used for designing and editing the project logo and arrow buttons.
 
 - [Background Remover](https://www.remove.bg/)
   * Used for removing the background around the logo and arrow buttons making them transparent.
@@ -189,6 +189,25 @@ The arrow buttons are positioned at the bottom of the game under the game board,
   * Used for finding the key codes for keys on a keyboard.
 
 --- 
+## Automation Testing & Manual Testing
+
+### Automation Testing 
+
+Automation testing is a software testing technique that uses automation tools to execute pre-scripted tests on a software application. In automation testing, the tester writes scripts or uses specialised tools to automate the execution of test cases, eliminating the need for manual intervention in repetitive and time-consuming testing tasks. 
+
+The advantage of using automation testing over manual testing is its efficiency because automated tests can execute test cases much faster than manual testing which allows developers to receive feedback quicker, additionally, automation testing allows test scripts to be reused across different releases and projects this will save time. Finally, using automation testing allows you to detect defects within projects early which decreases the overall cost of fixing issues and meeting deadlines. 
+
+On the other hand automation testing also has its disadvantages, for example, automation testing tools lack the ability to make subjective decisions or assess the user experience. Another disadvantage is regular maintenance to keep the automation testing tools up-to-date with the changes in projects. Additionally, using automation testing may require training for the testing team if they have no knowledge or experience using the chosen automation tools. Finally, using automation testing requires investment in terms of selecting and purchasing automation tools and setting up the necessary infrastructure. 
+
+### Manual testing 
+
+Manual testing is the process of manually executing a test case without the use of any automation tools. In manual testing, a tester performs testing activities such as test case design, test execution, result analysis, and defect reporting by interacting directly with their projects. 
+
+Manual testing does have its advantages, for example, manual testing is adaptable and can be applied to various types of testing scenarios, this makes it suitable for projects that frequently change their requirements or user interface. Another advantage is manual testing allows the tester to explore the application to identify any unexpected bugs or issues that might be missed by an automation tool. Additionally, manual testing is effective when assessing the overall user experience, including usability, user satisfaction, and user interface design, this will also allow the business to achieve the user goals set at the beginning of the project. Finally, manual testing is cost-effective for small projects or projects with limited budgets.
+
+However, manual testing does have some disadvantages like human error, manual testing is subject to human error which includes oversight, misinterpretation of requirements, and inconsistent executions when testing. Additionally, manual testing can be time-consuming especially when dealing with repetitive and large-scale tasks, and projects that have tight deadlines. Another disadvantage of manual testing is even though it can be cost-effective at first the cost can increase over the long term due to the need for more human resources. Finally, manual testing is heavily dependent on the skills and knowledge of the testing team, if there's any lack of necessary skills or experience it can cause inconsistency, decrease in productivity, and possibly not meet deadlines. 
+
+When testing my project I chose to do manual testing instead of automation testing this was because my project was small and didn't require a lot of testing and allowed me to stay within my budget. Additionally, manual testing of the project allowed me to fully assess the user experience by making sure all functional features were working correctly, testing the game responsiveness to different screen types, and if I was achieving the user goals set at the beginning of the project. Finally, I chose manual testing because it's easy to understand and doesn't require me to use unfamiliar software which will take time away from the project to learn how it works and apply it to the coding software I use. 
 
 ## Testing 
 
